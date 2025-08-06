@@ -1,3 +1,58 @@
+
+# SpaceX Energy Dashboard
+
+This project is a React-based dashboard for visualizing SpaceX launch data and energy statistics. It features authentication, data charts, and a modern UI.
+
+## Features
+
+- User authentication (admin/guest)
+- Dashboard with launch statistics and energy information
+- Interactive charts for launches and energy
+- Pagination and navigation
+- Responsive design using Material UI
+
+## Technologies Used
+
+- React, TypeScript
+- Redux Toolkit for state management
+- Apollo Client for GraphQL data fetching
+- Material UI for UI components
+- React Router for navigation
+
+## Architecture Overview
+
+- **Frontend:** React components (Login, Dashboard, Launches, LaunchChart, EnergyInformation, Navigation, Pagination)
+- **State:** Redux store with launchesSlice
+- **Data:** Apollo Client connects to SpaceX API via GraphQL
+- **Auth:** AuthContext manages login/logout and error state
+- **Logic:** Utility functions for energy calculations
+
+## Setup & Usage
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start development server:
+   ```bash
+   npm start
+   ```
+3. Run tests:
+   ```bash
+   npm test
+   ```
+4. Build for production:
+   ```bash
+   npm run build
+   ```
+
+## Testing
+
+- Unit tests for components and utilities
+- Run `npm test` to launch the test runner
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,4 +99,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-"# react-assignment" 
