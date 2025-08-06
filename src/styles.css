@@ -1,0 +1,37 @@
+body {
+  background: #f4f8fc;
+  font-family: 'Segoe UI', system-ui, Arial, sans-serif;
+  margin: 0; padding: 0;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  padding: 30px;
+  margin: 60px auto;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 16px #e0eaf6;
+}
+input, button {
+  margin-top: 12px;
+  font-size: 16px;
+  padding: 1em;
+  border-radius: 7px;
+  border: 1px solid #b6cbef;
+  outline: none;
+}
+button {
+  background: #51aaff !important;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #2974ca;
+}
+h1, h2, h3 {
+  color: #0174c8;
+}

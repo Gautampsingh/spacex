@@ -1,0 +1,6 @@
+@media (max-width: 1024px) {
+    .MuiPaper-root.MuiPaper-outlined.MuiPaper-rounded.MuiCard-root.css-12w2o8e-MuiPaper-root-MuiCard-root{
+        width: 100% !important;
+        flex: auto !important;
+    }
+}
